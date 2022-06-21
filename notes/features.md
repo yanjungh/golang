@@ -25,3 +25,18 @@ is different from languages like Python or Java, which pass by reference.
 What does this mean? 
    * [3]int and [4]int are different types.
    * we cannot assign or compare the two types above.
+
+## The "error" type
+
+The word "error" is a keyword in golang, and it's implemented via an interface.
+
+```go
+type error interface {
+    Error() string
+}
+```
+
+
+
+
+

@@ -1,5 +1,5 @@
-/* Go method is a special type of function.
-*/
+/* Go _method_ is a special type of function.
+ */
 
 package main
 
